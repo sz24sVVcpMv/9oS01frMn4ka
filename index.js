@@ -82,6 +82,20 @@ gbreport - מישהו עובר על החוקים? דווח עליו!
 
     return;
   }
+  if (cmd === `${prefix}youtube`){
+  message.replay('https://www.youtube.com/channel/UCf9BTfc8WP5hnxJc7u4mFUQ');
+}
+if (cmd === `${prefix}insta`){
+message.replay('https://www.instagram.com/galcohenofficial');
+  }
+if (cmd === `${prefix}twitter`){
+message.replay('https://twitter.com/gal_cohen2002?lang=he');
+}
+if (cmd === `${prefix}creator`){
+  message.replay('bot created by **🌟𝑶𝒓𝒊 | 𝓝𝓲𝓬𝓮𝓖𝓪𝓶𝓮𝓼🌟⚒#2030** **KarPo#0807** **𝙎𝙝𝙖𝙝𝙖𝙧 | 𝙏𝙝𝙚𝘼𝙣𝙩#0139**
+}
+if (cmd === `${prefix}invite`){
+  message.replay('https://discord.gg/prsMxYW');
   
 });
 client.login(process.env.BOT_TOKEN);
