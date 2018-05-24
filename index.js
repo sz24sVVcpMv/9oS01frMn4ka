@@ -34,7 +34,6 @@ client.on('message', msg => {
   if (msg.content === '!gb invite ') {
     msg.reply('https://discord.gg/ev4dfpT');
   }
-});
 client.on("ready", async () => {
   client.user.setActivity('!gb help|הבוט הרשמי של גל כהן', {type: "PLAYING"});
   });
