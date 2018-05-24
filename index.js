@@ -1,11 +1,9 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
 const client = new Discord.Client();
-
-const bot = new Discord.Client({disableEveryone: true});
 
 client.on('ready', () => {
   console.log(`Bot is Online!`);
- client.user.setGame(`!gb help|הבוט הרשמי של גל כהן`);
+  client.user.setGame("!gb help | Gal Cohen Bot official");
 });
 
 client.on("message", async message => {
