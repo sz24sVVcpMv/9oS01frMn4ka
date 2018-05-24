@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Bot is Online!`);
-  client.user.setGame("!gb help | Gal Cohen Bot official");
+  client.user.setGame("!gb help | Gal Cohen Bot Official");
 });
 
 client.on("message", async message => {
@@ -31,4 +31,4 @@ client.on("message", async message => {
 
 
 });
-bot.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
