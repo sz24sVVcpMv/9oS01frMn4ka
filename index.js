@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Bot is Online!`);
-  client.user.setGame("!gb help | Gal Cohen Bot Official");
+  client.user.setGame("gbhelp | Gal Cohen Bot Official");
 });
 
 client.on("message", async message => {
@@ -20,13 +20,13 @@ client.on("message", async message => {
   message.reply('קיבלת בפרטי פקודות שוות :mailbox_with_mail:');
       
         message.author.send(`!gb youtube - הערוץ של גל
-!gb insta - האינסטגרם של גל
-!gb twitter - הטוויטר של גל
-!gb creator - היוצרים של הבוט
+gbinsta - האינסטגרם של גל
+gbtwitter - הטוויטר של גל
+gbcreator - היוצרים של הבוט
       --Staff Commands--
- !gb mute - מיוט למי שעובר על החוק
- !gb kick - קיק למי שעובר על החוק
- !gb ban - באן למי שעובר על החוק`);
+ gbmute - מיוט למי שעובר על החוק
+ gbkick - קיק למי שעובר על החוק
+ gbban - באן למי שעובר על החוק`);
     }
 
 
