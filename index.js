@@ -30,12 +30,6 @@ client.on("message", async message => {
  !gb ban - באן למי שעובר על החוק`);
     }
 
-client.on('message', msg => {
-  if (msg.content === '!gb invite ') {
-    msg.reply('https://discord.gg/ev4dfpT');
-  }
-client.on("ready", async () => {
-  client.user.setActivity('!gb help|הבוט הרשמי של גל כהן', {type: "PLAYING"});
-  });
 
+});
 bot.login(process.env.BOT_TOKEN);
