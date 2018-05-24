@@ -3,8 +3,8 @@ const client = new Discord.Client();
 
 const bot = new Discord.Client({disableEveryone: true});
 
-client.on("ready", async () => {
-  console.log(`${bot.user.username} is online!`);
+client.on('ready', () => {
+  console.log(`Bot is Online!`);
  client.user.setGame(`!gb help|הבוט הרשמי של גל כהן`);
 });
 
