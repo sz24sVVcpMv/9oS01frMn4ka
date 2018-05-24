@@ -96,6 +96,6 @@ if (cmd === `${prefix}creator`){
 }
 if (cmd === `${prefix}invite`){
   message.replay('https://discord.gg/prsMxYW');
-  
+}
 });
 client.login(process.env.BOT_TOKEN);
