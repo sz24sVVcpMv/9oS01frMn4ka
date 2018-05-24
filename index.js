@@ -5,6 +5,7 @@ const bot = new Discord.Client({disableEveryone: true});
 
 client.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
+ client.user.setGame(`!gb help|הבוט הרשמי של גל כהן`);
 });
 
 client.on("message", async message => {
